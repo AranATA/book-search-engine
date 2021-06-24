@@ -67,23 +67,23 @@ Screenshot that shows the full generated web page:<br>
 These notes and links are listing some valuable references among others that I used doing this homework:<br>
 <br>
 
-[https://web.dev/offline-cookbook/#cache-falling-back-to-network](https://web.dev/offline-cookbook/#cache-falling-back-to-network)
+[https://www.apollographql.com/docs/apollo-server/getting-started/](https://www.apollographql.com/docs/apollo-server/getting-started/)
 
-[https://web.dev/offline-cookbook/#cache-falling-back-to-network](https://web.dev/offline-cookbook/#cache-falling-back-to-network)
+[https://www.altexsoft.com/blog/nosql-pros-cons/](https://www.altexsoft.com/blog/nosql-pros-cons/)
 
-[https://web.dev/offline-cookbook/#cache-falling-back-to-network](https://web.dev/offline-cookbook/#cache-falling-back-to-network)
+[https://www.howtographql.com/basics/1-graphql-is-the-better-rest/](https://www.howtographql.com/basics/1-graphql-is-the-better-rest/)
 
-[https://developer.mozilla.org/en-US/docs/Web/Manifest](https://developer.mozilla.org/en-US/docs/Web/Manifest)
+[https://developers.google.com/books/docs/v1/using](https://developers.google.com/books/docs/v1/using)
 
-[https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps)
+[https://graphql.org/blog/rest-api-graphql-wrapper/](https://graphql.org/blog/rest-api-graphql-wrapper/)
 
-[https://jscompress.com/]https://jscompress.com/)
+[https://blog.bitsrc.io/migrating-existing-rest-apis-to-graphql-2c5de3db647d](https://blog.bitsrc.io/migrating-existing-rest-apis-to-graphql-2c5de3db647d)
 
-[https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API)
+[https://graphql.org/graphql-js/mutations-and-input-types/](https://graphql.org/graphql-js/mutations-and-input-types/)
 
 [https://www.mongodb.com/cloud/atlas](https://www.mongodb.com/cloud/atlas)
 
-[https://www.npmjs.com/package/compression]https://www.npmjs.com/package/compression)
+[https://www.apollographql.com/docs/apollo-server/security/authentication/](https://www.apollographql.com/docs/apollo-server/security/authentication/)
 
 [https://shields.io/category/dependencies/](https://shields.io/category/dependencies/)
 
