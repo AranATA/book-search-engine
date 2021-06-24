@@ -85,9 +85,9 @@ These notes and links are listing some valuable references among others that I u
 
 [https://www.apollographql.com/docs/apollo-server/security/authentication/](https://www.apollographql.com/docs/apollo-server/security/authentication/)
 
-[https://shields.io/category/dependencies/](https://shields.io/category/dependencies/)
+[https://itqna.net/questions/5973/search-details-book-google-books-api-php](https://itqna.net/questions/5973/search-details-book-google-books-api-php)
 
-[https://www.screencastify.com/](https://www.screencastify.com/)
+[https://spec.graphql.org/June2018/](https://spec.graphql.org/June2018/)
 
 <br>
 <br>
