@@ -69,11 +69,15 @@ These notes and links are listing some valuable references among others that I u
 
 [https://www.apollographql.com/docs/apollo-server/getting-started/](https://www.apollographql.com/docs/apollo-server/getting-started/)
 
+[https://www.apollographql.com/docs/react/data/mutations/](https://www.apollographql.com/docs/react/data/mutations/)
+
+[https://www.apollographql.com/docs/react/local-state/local-state-management/](https://www.apollographql.com/docs/react/local-state/local-state-management/)
+
+[https://www.apollographql.com/docs/apollo-server/security/authentication/](https://www.apollographql.com/docs/apollo-server/security/authentication/)
+
 [https://www.altexsoft.com/blog/nosql-pros-cons/](https://www.altexsoft.com/blog/nosql-pros-cons/)
 
 [https://www.howtographql.com/basics/1-graphql-is-the-better-rest/](https://www.howtographql.com/basics/1-graphql-is-the-better-rest/)
-
-[https://developers.google.com/books/docs/v1/using](https://developers.google.com/books/docs/v1/using)
 
 [https://graphql.org/blog/rest-api-graphql-wrapper/](https://graphql.org/blog/rest-api-graphql-wrapper/)
 
@@ -83,11 +87,19 @@ These notes and links are listing some valuable references among others that I u
 
 [https://www.mongodb.com/cloud/atlas](https://www.mongodb.com/cloud/atlas)
 
-[https://www.apollographql.com/docs/apollo-server/security/authentication/](https://www.apollographql.com/docs/apollo-server/security/authentication/)
+[https://developers.google.com/books/docs/v1/using](https://developers.google.com/books/docs/v1/using)
 
 [https://itqna.net/questions/5973/search-details-book-google-books-api-php](https://itqna.net/questions/5973/search-details-book-google-books-api-php)
 
 [https://spec.graphql.org/June2018/](https://spec.graphql.org/June2018/)
+
+[https://reactjs.org/docs/hooks-intro.html](https://reactjs.org/docs/hooks-intro.html)
+
+[https://reactrouter.com/](https://reactrouter.com/)
+
+[https://blog.logrocket.com/how-react-hooks-can-replace-react-router/](https://blog.logrocket.com/how-react-hooks-can-replace-react-router/)
+
+[https://dmitripavlutin.com/javascript-and-or-logical-operators/](https://dmitripavlutin.com/javascript-and-or-logical-operators/)
 
 <br>
 <br>

@@ -3,6 +3,7 @@ const path = require('path');
 const db = require('./config/connection');
 const { ApolloServer } = require('apollo-server-express');
 const { typeDefs, resolvers } = require ('./schemas')
+const { authMiddleware } = require('./utils/auth');
 
 // The following code is no longer needed in Grapql setup
 // const routes = require('./routes');
@@ -12,6 +13,9 @@ const PORT = process.env.PORT || 3001;
 const server = new ApolloServer({
     typeDefs,
     resolvers,
+    // define any context here - authMiddleware encodes and decodes tokens back and forth. It passes the client req.s to the resolvers.js as a 'context' object with a user property.
+    context: authMiddleware,
+
 })
 const app = express();
 // The parameter you provide to applyMiddleware is your middleware's top-level representation of your application. In Express applications, this variable is commonly named app.
@@ -24,6 +28,10 @@ app.use(express.json());
 if (process.env.NODE_ENV === 'production') {
   app.use(express.static(path.join(__dirname, '../client/build')));
 }
+
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, '../client/build/index.html'));
+})
 
 db.once('open', () => {
   app.listen(PORT, () => console.log(`🌍 GraphQL is now listening on localhost:${PORT}${server.graphqlPath}`));
