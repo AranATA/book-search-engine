@@ -9,7 +9,7 @@ const SignupForm = () => {
   // set initial form state
   const [userFormData, setUserFormData] = useState({ username: '', email: '', password: '' });
   
-  // set ADD_USER mutation
+  // set ADD_USER mutation - do we need data?
   const [addUser, { error, data }] = useMutation(ADD_USER);
 
   // set state for form validation
