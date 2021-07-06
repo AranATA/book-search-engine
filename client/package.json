@@ -2,7 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https//aranata.github.io/book-search-engine",
+  "homepage": "https://aranata.github.io/book-search-engine",
   "proxy": "http://localhost:3001",
   "dependencies": {
     "@apollo/client": "^3.3.5",
