@@ -1,4 +1,4 @@
-// import React, { useState } from 'react';
+import React, { useState } from 'react';
 import { useQuery, useMutation } from '@apollo/client';
 import { REMOVE_BOOK } from '../utils/mutations';
 import { GET_ME } from '../utils/queries';
@@ -19,7 +19,7 @@ const SavedBooks = () => {
   
   // create function that accepts the book's mongo _id value as param and deletes the book from the database
 
-  const [removeBook, { error }] = useMutation(REMOVE_BOOK);
+  const [removeBook] = useMutation(REMOVE_BOOK);
 
   const handleDeleteBook = async (bookId) => {
     const token = Auth.loggedIn() ? Auth.getToken() : null;
@@ -27,8 +27,6 @@ const SavedBooks = () => {
     if (!token) {
       return false;
     }
-
-    
 
     try {
   // removeBook is sent to Apollo Server
@@ -38,7 +36,7 @@ const SavedBooks = () => {
 
     // upon success, remove book's id from localStorage
       removeBookId(bookId);
-      refetch();
+     
     } catch (err) {
       console.error(err);
     }
