@@ -43,7 +43,7 @@ function App() {
         <>
           <Navbar />
           <Switch>
-            <Route exact path={process.env.PUBLIC_URL + '/'} component={SearchBooks} />
+            <Route exact path='/' component={SearchBooks} />
             <Route exact path='/saved' component={SavedBooks} />
             <Route render={() => <h1 className='display-2'>Wrong page!</h1>} />
           </Switch>
