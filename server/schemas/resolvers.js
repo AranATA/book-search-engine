@@ -3,10 +3,12 @@ const { User } = require('../models');
 const { signToken } = require('../utils/auth');
 
 const resolvers = {
+    
   Query: {
     // getSingleUser - By adding context to our query, we can retrieve the logged in user without specifically searching for them
 
     me: async (parent, arg, context) => {
+
       if (context.user) {
         return User.findOne({ _id: context.user._id });
       }
@@ -27,40 +29,45 @@ const resolvers = {
 
     login: async(parent, { email, password }, context) => {
       const user = await User.findOne({ email });
+      
       if(!user) {
         throw new AuthenticationError('No user with this email found!');
       }
       const correctPw = await user.isCorrectPassword(password);
+      
       if (!correctPw) {
         throw new AuthenticationError('Incorrect Password!');
       }
+      
       const token = signToken(user);
       return { token, user };
     },
 
     // saveBook(input: BookInput): User
 
-    saveBook: async (parent, Bookinput, context) => {
+    saveBook: async (parent, args, context) => {
       if (context.user) {
-        return User.findOneandUpdate(
-          {_id: context.user._id},
+        return User.findByIdAndUpdate(
+          { _id: context.user._id },
           {
             $addToSet: {
-              savedBooks: Bookinput
+              savedBooks: args.input
             }
           },
           {
-            new:true,
-            runValidators: true,
+            new: true,
+            runValidators: true
           }
         );
       }
       throw new AuthenticationError('You need to be logged in!');
     },
 
+    // removeBook(bookId: String!): User
+
     removeBook: async (parent, { bookId }, context) => {
       if (context.user) {
-        return User.findOneandUpdate(
+        return User.findOneAndUpdate(
         { _id: context.user._id},
         {
           $pull: {
