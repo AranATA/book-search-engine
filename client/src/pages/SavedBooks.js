@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 import { useQuery, useMutation } from '@apollo/client';
 import { REMOVE_BOOK } from '../utils/mutations';
 import { GET_ME } from '../utils/queries';
@@ -10,8 +10,11 @@ import { removeBookId } from '../utils/localStorage';
 
 const SavedBooks = () => {
   
-  const { loading, data } = useQuery(GET_ME);
+  const { loading, error, data } = useQuery(GET_ME, {
+    fetchPolicy: 'network-only'
+  });
   const userData = data?.me || [];
+  // userData has the savedBooks array
   console.log(userData);
   
   // create function that accepts the book's mongo _id value as param and deletes the book from the database
@@ -28,23 +31,14 @@ const SavedBooks = () => {
     
 
     try {
-    //   const response = await deleteBook(bookId, token);
-
-    //   if (!response.ok) {
-    //     throw new Error('something went wrong!');
-    //   }
-
-    //   const updatedUser = await response.json();
-    //   setUserData(updatedUser);
-    //   // upon success, remove book's id from localStorage
-    //   removeBookId(bookId);
-    // } catch (err) {
-    //   console.error(err);
-
+  // removeBook is sent to Apollo Server
     const { data } = await removeBook({
       variables: { bookId },
     });
+
+    // upon success, remove book's id from localStorage
       removeBookId(bookId);
+      refetch();
     } catch (err) {
       console.error(err);
     }
