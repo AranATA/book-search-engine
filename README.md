@@ -52,10 +52,16 @@ GIVEN a book search engine:<br>
 
 ***
 
-Screenshot that shows the full generated web page:<br>
+Screenshots that shows the fully generated web pages:<br>
 <br>
 
-![alt text](public/images/scrshot-home.png)
+![alt text](client/public/images/scrshot-search.png)
+<br>
+<br>
+<br>
+
+
+![alt text](client/public/images/scrshot-saved.png)
 <br>
 <br>
 <br>
