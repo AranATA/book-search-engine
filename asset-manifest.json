@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/https//aranata.github.io/book-search-engine/static/css/main.a13d3d6a.chunk.css",
+    "main.js": "/https//aranata.github.io/book-search-engine/static/js/main.63ebed97.chunk.js",
+    "main.js.map": "/https//aranata.github.io/book-search-engine/static/js/main.63ebed97.chunk.js.map",
+    "runtime-main.js": "/https//aranata.github.io/book-search-engine/static/js/runtime-main.04626497.js",
+    "runtime-main.js.map": "/https//aranata.github.io/book-search-engine/static/js/runtime-main.04626497.js.map",
+    "static/css/2.63f31f8d.chunk.css": "/https//aranata.github.io/book-search-engine/static/css/2.63f31f8d.chunk.css",
+    "static/js/2.f2bee1c0.chunk.js": "/https//aranata.github.io/book-search-engine/static/js/2.f2bee1c0.chunk.js",
+    "static/js/2.f2bee1c0.chunk.js.map": "/https//aranata.github.io/book-search-engine/static/js/2.f2bee1c0.chunk.js.map",
+    "index.html": "/https//aranata.github.io/book-search-engine/index.html",
+    "precache-manifest.f44350844e3b709e1ef8a83e485a00fb.js": "/https//aranata.github.io/book-search-engine/precache-manifest.f44350844e3b709e1ef8a83e485a00fb.js",
+    "service-worker.js": "/https//aranata.github.io/book-search-engine/service-worker.js",
+    "static/css/2.63f31f8d.chunk.css.map": "/https//aranata.github.io/book-search-engine/static/css/2.63f31f8d.chunk.css.map",
+    "static/css/main.a13d3d6a.chunk.css.map": "/https//aranata.github.io/book-search-engine/static/css/main.a13d3d6a.chunk.css.map",
+    "static/js/2.f2bee1c0.chunk.js.LICENSE.txt": "/https//aranata.github.io/book-search-engine/static/js/2.f2bee1c0.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.04626497.js",
+    "static/css/2.63f31f8d.chunk.css",
+    "static/js/2.f2bee1c0.chunk.js",
+    "static/css/main.a13d3d6a.chunk.css",
+    "static/js/main.63ebed97.chunk.js"
+  ]
+}
